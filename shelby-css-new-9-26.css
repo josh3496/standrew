@@ -1,0 +1,38 @@
+.header .container {
+    display: flex;
+    gap: 15px;
+}
+#anchor_id_name img {
+    height: 60px;
+}
+nav#jubilee-header-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-size: 15.96px;
+}
+@media (max-width: 1024px){
+    nav#jubilee-header-menu {
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px){
+    .header .container {
+        flex-direction: column;
+    }
+    nav#jubilee-header-menu {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 425px){
+    .header {
+        padding: 0px;
+    }
+    nav#jubilee-header-menu {
+        display: none;
+    }
+}
+
+
+/* https://standrewlu.org/wp-content/uploads/2021/06/SAL_Horz_2C-Reversed.png */
